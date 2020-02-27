@@ -56,6 +56,6 @@ class Solution:
             return False
         return self.__helper(root.left,root.val,minimum) and   self.__helper(root.right,maximum,root.val)
         
-   space complexity o(1)
-   time complexity o(1)
+   space complexity O(1)
+   time complexity O(1)
         
